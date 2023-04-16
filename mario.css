@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.GameContainer {
+    height: 99vh;
+    width: 99vw;
+    margin: auto;
+    /* display: flex; */
+    background: url(background_img.avif);
+    
+}
+
+#Player {
+    background-color: rgb(15, 127, 255);
+    height: 70px;
+    width: 40px;
+    position: relative;
+    bottom: -289px;
+    /* left: 2vh; */
+    /* animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1; */
+
+
+}
+
+#PlayerBaseLine {
+    background-color: black;
+    height: 5px;
+    width: 99vw;
+    position: absolute;
+    bottom: 238px;
+}
+
+
+
+
+
+.Platforms {
+    background-color: aqua;
+    height: 10px;
+    width: 80px;
+    position: relative;
+    bottom: -400px;
+}
+
+
+#Platform1 {
+    position: relative;
+    bottom: -269px;
+    left: 50px;
+}
+
+#Platform2 {
+    position: relative;
+    bottom: -400px;
+    left: 100px;
+}
+
+#Platform3 {
+    position: relative;
+    bottom: -400px;
+    left: 150px;
+}
+
+#Platform4 {
+    position: relative;
+    bottom: -400px;
+    left: 200px;
+}
+
+#Platform5 {
+    position: relative;
+    bottom: -400px;
+    left: 250px;
+}
+
+
+
+
+
+
+@keyframes MovementUp {
+    from {
+        bottom: -400px;
+    }
+
+    to {
+        bottom: -270px;
+
+    }
+
+}
+
+@keyframes MovementDown {
+    from {
+        bottom: -270px;
+    }
+
+    to {
+        bottom: -400px;
+
+    }
+
+}
